@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter</title>
+
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+
+    <style>
+        body {
+            padding: 5px;
+        }
+
+        .counter-wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+
+        #counter {
+            font-size: 4em;
+        }
+    </style>
+
+</head>
+<body class="indigo">
+<div class="right-align">
+    <span id="close" class="material-icons white-text">close</span>
+</div>
+<div class="valign-wrapper">
+    <div class="valign center-align counter-wrapper white-text">
+        You have Escaped
+        <div id="counter"></div>
+        times
+    </div>
+</div>
+<script src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

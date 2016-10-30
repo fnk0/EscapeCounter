@@ -10,4 +10,5 @@ Note: I made this in about 30 minutes... so it's very raw and not much functiona
 the lack of escape key on the new MBP pro.
 
 Here's a sreenshot of the app:
+
 ![screenshot](https://github.com/fnk0/EscapeCounter/blob/master/screenshot2.png?raw=true)
